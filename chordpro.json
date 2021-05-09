@@ -161,9 +161,9 @@
         // Note that top/bottom exclude the head/footspace.
         "margintop": 80,
         "marginbottom": 40,
-        "marginleft": 40,
+        "marginleft": 80,
         "marginright": 40,
-        "headspace": 30,
+        "headspace": 50,
         "footspace": 20,
         // Special: head on first page only, add the headspace to
         // the other pages so they become larger.
@@ -172,12 +172,12 @@
         // Baseline distances as a factor of the font size.
         "spacing": {
             "title": 1.2,
-            "lyrics": 1.6,
-            "chords": 1.6,
+            "lyrics": 1.2,
+            "chords": 1.2,
             "grid": 1.2,
             "tab": 1.0,
             "toc": 1.4,
-            "empty": 1.0,
+            "empty": 1.6,
         },
         // Note: By setting the font size and spacing for empty lines to
         // smaller values, you get a fine(r)-grained control over the
@@ -232,11 +232,11 @@
         // "top", "bottom" or "right" side of the first page,
         // or "below" the last song line.
         "diagrams": {
-            "show": "top",
-            "width": 6,
-            "height": 6,
+            "show": "right",
+            "width": 5,
+            "height": 5,
             "hspace": 3.95,
-            "vspace": 3,
+            "vspace": 4,
             "vcells": 4,
             "linewidth": 0.1,
         },
@@ -349,7 +349,7 @@
             },
             "chord": {
                 "name": "Helvetica-Bold",
-                "size": 10
+                "size": 9
             },
             "chordfingers": {
                 "name": "ZapfDingbats",
@@ -357,7 +357,7 @@
             },
             "comment": {
                 "name": "Helvetica",
-                "size": 12,
+                "size": 10,
                 "background": "#E5E5E5"
             },
             "comment_italic": {
@@ -379,8 +379,12 @@
             },
             "grid": {
                 "name": "Helvetica",
-                "size": 10
+                "size": 9
             },
+            "diagram": {
+                "name": "Helvetica-Bold",
+                "size": 9
+            }
         },
         // Element mappings that can be specified, but need not since
         // they default to other elements.

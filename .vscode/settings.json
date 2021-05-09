@@ -1,0 +1,11 @@
+{
+    "[jsonc]": {
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace"
+    },
+    "files.associations": {
+        "*.json": "jsonc"
+    }
+}
