@@ -1,0 +1,9 @@
+{
+    "pdf": {
+        "margintop": 60,
+        "marginbottom": 20,
+        "marginright": 30,
+        "headspace": 40,
+        "footspace": 20,
+    }
+}
