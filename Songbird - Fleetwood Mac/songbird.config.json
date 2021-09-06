@@ -1,0 +1,65 @@
+{
+    "pdf": {
+        "margintop": 60,
+        "marginbottom": 20,
+        "headspace": 40,
+        "footspace": 20,
+        "spacing": {
+            "title": 1.2,
+            "lyrics": 1.2,
+            "chords": 1.2,
+            "grid": 1.2,
+            "tab": 1.0,
+            "toc": 1.4,
+            "empty": 1.6
+        },
+        "fonts": {
+            "title": {
+                "name": "Helvetica-Bold",
+                "size": 13
+            },
+            "text": {
+                "name": "Helvetica",
+                "size": 11
+            },
+            "chord": {
+                "name": "Helvetica-Bold",
+                "size": 10
+            },
+            "chordfingers": {
+                "name": "ZapfDingbats",
+                "size": 11
+            },
+            "comment": {
+                "name": "Helvetica-Oblique",
+                "size": 11,
+                "background": "#E5E5E5"
+            },
+            "comment_italic": {
+                "name": "Helvetica-Oblique",
+                "size": 13,
+            },
+            "comment_box": {
+                "name": "Helvetica",
+                "size": 13,
+                "frame": 1
+            },
+            "tab": {
+                "name": "Courier",
+                "size": 11
+            },
+            "toc": {
+                "name": "Times-Roman",
+                "size": 12
+            },
+            "grid": {
+                "name": "Helvetica",
+                "size": 10
+            },
+            "diagram": {
+                "name": "Helvetica-Bold",
+                "size": 10
+            }
+        }
+    }
+}
